@@ -8,7 +8,7 @@
         display: 'flex',
         margin: 0,
         padding: 0,
-    }).wrap("<div style='border:1VW dotted black; padding:1VW; left:50%; top: 50%; transform:translate(-50%, -50%, 0); position:absolute;' ></div>");
+    }).wrap("<div style='border:1VW dotted black; padding:1VW; left:50%; top: 50%; transform:translate3d(-50%, -50%, 0); position:absolute;' ></div>");
     $('#profilephoto').find('img').css(
         {
             'max-width': '60vw',
