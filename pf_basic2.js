@@ -12,9 +12,9 @@
     $('#profilephoto').find('img').css(
         {
             'max-width': '60vw',
-            'max-height': '60vw',
-            'width': 'fit-content',
-            'height': 'fit-content'
+            'max-height': '80vh',
+            'width': 'auto',
+            'height': 'auto'
         }
     );
 $('#profilephoto').append(
